@@ -1,0 +1,39 @@
+{
+  "name": "bna-template-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ronald Tao <ronald.tao@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error no test sepcified\" && exit 1"
+  },
+  "keywords": [
+    "bna-template",
+    "CLI",
+    "bna",
+    "business network archive",
+    "hyperledger fabric",
+    "hyperledger composer"
+  ],
+  "bin": {
+    "bna-template": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "chalk": "^2.4.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^4.0.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "minimist": "^1.2.0",
+    "unzipper": "^0.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
+  },
+  "archiveVersion": "0.0.1"
+}
